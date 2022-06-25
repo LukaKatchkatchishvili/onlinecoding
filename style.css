@@ -77,6 +77,10 @@ body {
   text-transform: uppercase;
 }
 
+button {
+  cursor: pointer;
+}
+
 button .modal {
   display: none;
   top: -300px;
