@@ -1,0 +1,96 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background: #00b7ff;
+}
+
+.card {
+  margin-right: 50px;
+  width: 300px;
+  color: white;
+}
+
+@media (max-width: 1160px) {
+  .card {
+    margin-right: 0;
+  }
+}
+
+.card h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+}
+
+.card__box {
+  border: 2px solid white;
+  padding: 60px;
+  position: relative;
+}
+
+.card__box .line {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 50px;
+  height: 2px;
+  background: white;
+}
+
+.card__box button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  padding: 7px 10px;
+  border-radius: 15px;
+  font-size: 1.3rem;
+  border: 1px solid white;
+}
+
+.css button {
+  border-radius: 0;
+  background: #09313f;
+  color: white;
+  border: 0;
+  text-transform: uppercase;
+}
+
+.javascript button {
+  border-radius: 0;
+  background: #09313f;
+  color: white;
+  border: 0;
+  text-transform: uppercase;
+}
+
+button .modal {
+  display: none;
+  top: -300px;
+}
+
+.clicked .modal {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #19596d;
+  height: 100%;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
